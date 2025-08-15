@@ -1,7 +1,5 @@
-from homeassistant.helpers.unit import UnitOfTemperature(
-    UnitOfTemperature.CELSIUS,
-    UnitOfTemperature.FAHRENHEIT,
-)
+from homeassistant.helpers.unit import UnitOfTemperature
+
 """Constants for traeger."""
 # Base component constants
 NAME = "Traeger"
@@ -49,75 +47,75 @@ GRILL_MIN_TEMP_F = 165
 PROBE_PRESET_MODES = {
         "Chicken": {
             UnitOfTemperature.FAHRENHEIT: 165,
-            UnitOfTemperature.CELSIUS 74,
+            UnitOfTemperature.CELSIUS: 74,
             },
         "Turkey": {
             UnitOfTemperature.FAHRENHEIT: 165,
-            UnitOfTemperature.CELSIUS 74,
+            UnitOfTemperature.CELSIUS: 74,
             },
         "Beef (Rare)": {
             UnitOfTemperature.FAHRENHEIT: 125,
-            UnitOfTemperature.CELSIUS 52,
+            UnitOfTemperature.CELSIUS: 52,
             },
         "Beef (Medium Rare)": {
             UnitOfTemperature.FAHRENHEIT: 135,
-            UnitOfTemperature.CELSIUS 57,
+            UnitOfTemperature.CELSIUS: 57,
             },
         "Beef (Medium)": {
             UnitOfTemperature.FAHRENHEIT: 140,
-            UnitOfTemperature.CELSIUS 60,
+            UnitOfTemperature.CELSIUS: 60,
             },
         "Beef (Medium Well)": {
             UnitOfTemperature.FAHRENHEIT: 145,
-            UnitOfTemperature.CELSIUS 63,
+            UnitOfTemperature.CELSIUS: 63,
             },
         "Beef (Well Done)": {
             UnitOfTemperature.FAHRENHEIT: 155,
-            UnitOfTemperature.CELSIUS 68,
+            UnitOfTemperature.CELSIUS: 68,
             },
         "Beef (Ground)": {
             UnitOfTemperature.FAHRENHEIT: 160,
-            UnitOfTemperature.CELSIUS 71,
+            UnitOfTemperature.CELSIUS: 71,
             },
         "Lamb (Rare)": {
             UnitOfTemperature.FAHRENHEIT: 125,
-            UnitOfTemperature.CELSIUS 52,
+            UnitOfTemperature.CELSIUS: 52,
             },
         "Lamb (Medium Rare)": {
             UnitOfTemperature.FAHRENHEIT: 135,
-            UnitOfTemperature.CELSIUS 57,
+            UnitOfTemperature.CELSIUS: 57,
             },
         "Lamb (Medium)": {
             UnitOfTemperature.FAHRENHEIT: 140,
-            UnitOfTemperature.CELSIUS 60,
+            UnitOfTemperature.CELSIUS: 60,
             },
         "Lamb (Medium Well)": {
             UnitOfTemperature.FAHRENHEIT: 145,
-            UnitOfTemperature.CELSIUS 63,
+            UnitOfTemperature.CELSIUS: 63,
             },
         "Lamb (Well Done)": {
             UnitOfTemperature.FAHRENHEIT: 155,
-            UnitOfTemperature.CELSIUS 68,
+            UnitOfTemperature.CELSIUS: 68,
             },
         "Lamb (Ground)": {
             UnitOfTemperature.FAHRENHEIT: 160,
-            UnitOfTemperature.CELSIUS 71,
+            UnitOfTemperature.CELSIUS: 71,
             },
         "Pork (Medium Rare)": {
             UnitOfTemperature.FAHRENHEIT: 135,
-            UnitOfTemperature.CELSIUS 57,
+            UnitOfTemperature.CELSIUS: 57,
             },
         "Pork (Medium)": {
             UnitOfTemperature.FAHRENHEIT: 140,
-            UnitOfTemperature.CELSIUS 60,
+            UnitOfTemperature.CELSIUS: 60,
             },
         "Pork (Well Done)": {
             UnitOfTemperature.FAHRENHEIT: 155,
-            UnitOfTemperature.CELSIUS 68,
+            UnitOfTemperature.CELSIUS: 68,
             },
         "Fish": {
             UnitOfTemperature.FAHRENHEIT: 145,
-            UnitOfTemperature.CELSIUS 63,
+            UnitOfTemperature.CELSIUS: 63,
             },
         }
 
