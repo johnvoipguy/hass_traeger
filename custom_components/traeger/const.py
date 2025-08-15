@@ -1,7 +1,7 @@
 from homeassistant.helpers.unit import UnitOfTemperature(
     UnitOfTemperature.CELSIUS,
     UnitOfTemperature.FAHRENHEIT,
-
+)
 """Constants for traeger."""
 # Base component constants
 NAME = "Traeger"
