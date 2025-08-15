@@ -219,7 +219,7 @@ class traeger:
     def mqtt_onconnectfail(self, client, userdata):
         _LOGGER.debug(f"Connect Fail Callback. Client:{client} userdata:{userdata}")
         _LOGGER.warning("Grill Connect Failed! MQTT Client Kill.")
-        self.hass.async_create_task(self.kill())                    #Shutdown if we arn't getting anywhere.
+        self.hass.create_task(self.kill())                    #Shutdown if we arn't getting anywhere.
     def mqtt_onsubscribe(self, client, userdata, mid, granted_qos):
         _LOGGER.debug(f"OnSubscribe Callback. Client:{client} userdata:{userdata} mid:{mid} granted_qos:{granted_qos}")
         for grill in self.grills:
@@ -318,7 +318,7 @@ class traeger:
 
     def syncmain(self):
         _LOGGER.debug(f"@Call_Later SyncMain CreatingTask for async Main.")
-        self.hass.async_create_task(self.main())
+        self.hass.create_task(self.main())
 
     async def main(self):
         _LOGGER.debug(f"Current Main Loop Time: {time.time()}")

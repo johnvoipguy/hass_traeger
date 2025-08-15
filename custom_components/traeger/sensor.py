@@ -1,8 +1,8 @@
 """Sensor platform for Traeger."""
 from homeassistant.helpers.entity import Entity
+from homeassistant.const import ATTR_TEMPERATUR, UnitOfTemperature
 """ from homeassistant.const import ATTR_TEMPERATURE, TEMP_CELSIUS, TEMP_FAHRENHEIT """
-from homeassistant.const import ATTR_TEMPERATUR
-from homeassistant.helpers.unit import ATTR_TEMPERATURE, UnitOfTemperature.CELSIUS, UnitOfTemperature.FAHRENHEIT
+""" from homeassistant.helpers.unit import ATTR_TEMPERATURE, UnitOfTemperature.CELSIUS, UnitOfTemperature.FAHRENHEIT """
 
 from .const import (
     DEFAULT_NAME,
