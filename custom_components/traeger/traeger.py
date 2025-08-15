@@ -299,7 +299,7 @@ class traeger:
         if state["units"] == 0:
             return homeassistant.helpers.unit.UnitOfTemperature.CELSIUS
         else:
-            return homeassistant.const.TEMP_FAHRENHEIT
+            return homeassistant.helpers.unit.UnitOfTemperature.FAHRENHEIT
 
     def get_details_for_accessory(self, thingName, accessory_id):
         state = self.get_state_for_device(thingName)
