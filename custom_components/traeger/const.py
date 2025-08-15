@@ -1,5 +1,4 @@
-from homeassistant.helpers.unit import UnitOfTemperature
-
+from homeassistant.const import UnitOfTemperature
 """Constants for traeger."""
 # Base component constants
 NAME = "Traeger"
