@@ -10,10 +10,10 @@ from homeassistant.components.climate.const import (
     HVAC_MODE_OFF,
     PRESET_NONE,
 )
-from homeassistant.const import (
+from homeassistant.helpers.unit import UnitOfTemperature(
     ATTR_TEMPERATURE,
-    TEMP_CELSIUS,
-    TEMP_FAHRENHEIT,
+    UnitOfTemperature.CELSIUS,
+    UnitOfTemperature.FAHRENHEIT,
 )
 
 from .const import (
