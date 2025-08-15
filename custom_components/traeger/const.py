@@ -1,6 +1,6 @@
 from homeassistant.const import (
-    TEMP_CELSIUS,
-    TEMP_FAHRENHEIT,
+    UnitOfTemperature.CELSIUS,
+    UnitOfTemperature.FAHRENHEIT,
 )
 
 """Constants for traeger."""
