@@ -97,3 +97,4 @@ If you want to contribute to this please read the [Contribution guidelines](CONT
 [releases]: https://github.com/sebirdman/hass_traeger/releases
 
 
+
