@@ -1,6 +1,6 @@
 # Traeger HASS component
 
-[![GitHub Release][releases-shield]]
+[![GitHub Release]]
 [![License][license-shield]](LICENSE)
 [![hacs][hacsbadge]][hacs]
 
@@ -95,4 +95,5 @@ If you want to contribute to this please read the [Contribution guidelines](CONT
 [license-shield]: https://img.shields.io/github/license/custom-components/blueprint.svg?style=for-the-badge
 [releases-shield]: https://img.shields.io/github/v/release/sebirdman/hass_traeger.svg?style=for-the-badge
 [releases]: https://github.com/sebirdman/hass_traeger/releases
+
 
