@@ -13,6 +13,6 @@
     "@stephenpapierski",
     "@njobrien1006"
   ],
-  "requirements": ["aio-mqtt>=0.2.0"],  // Added aio-mqtt dependency
-  "version": "2025.08.16"  // Updated version
+  "requirements": ["aio-mqtt>=0.2.0"],
+  "version": "2025.08.16"
 }
