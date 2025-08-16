@@ -56,7 +56,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry):
 
     await client.start(30)
     hass.data[DOMAIN][entry.entry_id] = client
-"""change"""
+
     for platform in PLATFORMS:
         if entry.options.get(platform, True):
             hass.async_create_task(
