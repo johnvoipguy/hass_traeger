@@ -59,8 +59,8 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry):
 
     for platform in PLATFORMS:
         if entry.options.get(platform, True):
-            hass.entry.async_create_task(
-                hass.config_entries.async_forward_entry_setups(entry, platform)
+            entry.async_create_task(
+                entry.config_entries.async_forward_entry_setups(entry, platform)
             )
     async def async_shutdown(event: Event):
         """Shut down the client."""
