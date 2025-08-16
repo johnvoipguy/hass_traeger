@@ -1,8 +1,8 @@
 {
   "domain": "traeger",
   "name": "Traeger",
-  "documentation": "https://github.com/sebirdman/hass_traeger",
-  "issue_tracker": "https://github.com/sebirdman/hass_traeger/issues",
+  "documentation": "https://github.com/johnvoipguy/hass_traeger",
+  "issue_tracker": "https://github.com/johnvoipguy/hass_traeger/issues",
   "iot_class": "cloud_push",
   "dependencies": [],
   "config_flow": true,
@@ -12,7 +12,7 @@
     "@krbaker",
     "@stephenpapierski",
     "@njobrien1006"
-    ],
-  "requirements": [],
-  "version": "2021.09.20"
+  ],
+  "requirements": ["aio-mqtt>=0.2.0"],  // Add aio-mqtt dependency
+  "version": "2025.08.16"  // Update version
 }
