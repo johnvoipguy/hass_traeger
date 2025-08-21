@@ -7,8 +7,6 @@ Contributing to this project should be as easy and transparent as possible, whet
 - Submitting a fix
 - Proposing new features
 
-## Github is used for everything
-
 Github is used to host code, to track issues and feature requests, as well as accept pull requests.
 
 Pull requests are the best way to propose changes to the codebase.
@@ -59,3 +57,4 @@ file.
 ## License
 
 By contributing, you agree that your contributions will be licensed under its MIT License.
+
