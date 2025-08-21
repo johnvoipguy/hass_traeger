@@ -1,6 +1,6 @@
-# Traeger HASS component
+Treager WireFire for Home Assistant
 
-[![GitHub Release]
+![Latest release](https://img.shields.io/github/v/release/johnvoipguy/hass_traeger)
 [![License][license-shield]](LICENSE)
 [![hacs][hacsbadge]][hacs]
 
@@ -14,11 +14,6 @@ Platform | Description
 `climate` | Allows temperature control of the grill and probe
 `number` | Allows minutes input to the timer
 `switch` | Allow SuperSmoke, Keepwarm, and connectivity switch
-
-![device][deviceimg]
-![lovelace][lovelaceimg]
-![grill][grillimg]
-![probe][probeimg]
 
 ## Installation (Manual)
 
@@ -95,6 +90,7 @@ If you want to contribute to this please read the [Contribution guidelines](CONT
 [license-shield]: https://img.shields.io/github/license/custom-components/blueprint.svg?style=for-the-badge
 [releases-shield]: https://img.shields.io/github/v/release/sebirdman/hass_traeger.svg?style=for-the-badge
 [releases]: https://github.com/sebirdman/hass_traeger/releases
+
 
 
 
